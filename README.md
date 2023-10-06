@@ -46,3 +46,63 @@ In a coffee shop there are many types of coffee. This is variety. If you order t
 - All deliverables of BI
 - Predictive models
 - Multivariate & text/image analytics
+
+## Advantages of Big Data analytics
+- Faster & better decision making
+- New products & services can be offered according to customer requirements obtained by analyzing data
+- Cost reduction in business operations
+- Real-time monitoring & forecasting of transactions
+- Identification of hidden points & patters within very large datasets
+- Ability to accumulate & aggregate data from multiple sources
+
+## Major challenges in Big Data
+- *Data growth* – storing large datasets is extremely difficult to handle. Companies are using compression, tiering, duplication etc. to handle such data.
+- *Unfamiliarity with big data methods* – confusing it with traditional data methods is some of the biggest mistakes made by companies
+- *Data security issues* – companies now use access control, real-time security monitoring, data encryption, data segregation, endpoint security, etc.
+- *Data integration* – data comes from a variety of sources & integrating them is crucial for analytics
+
+# Big Data Concepts: Big Data Essentials
+
+## Difference between Data Warehouse & Big Data technologies
+#### Data warehouse:
+- Can only store DBMS compatible data
+- Handles only structured data
+- Doesn’t utilize distributed file systems
+- Requires SQL knowledge
+- Query time has a direct correlation with data volume
+
+#### Big data technologies:
+- Can store any kind of data
+- Handles structured, unstructured & semi-structured data
+- Utilizes distributed file systems
+- Requires knowledge of alternative tools like Hive or SparkSQL
+- Query time has no correlation with data volume & large requests may be processed as fast & small requests
+
+## Data warehousing in the age of Big Data
+- Organizations try to make the most of their unstructured data using existing data warehouses.
+- Many big data tools started as POCs & then were launched in production-like capacity.
+- Data warehouse is still relevant to this day & age.
+
+## Types of computing
+- *Parallel computing* – all processors have access to shared memory
+- *Distributed computing* – each processor has its own memory & information is exchanged by passing messages
+
+## Distributed computing advantages
+- Allows different users/computers to share information
+- Allows an application on 1 machine to leverage processing power, memory or storage from another machine
+- Might enhance performance of stand-alone applications
+- Allows enhancement of performance or availability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
