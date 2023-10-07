@@ -132,6 +132,27 @@ HDFS has 2 types of nodes that work in the same manner:
   - They are the actual worker nodes that perform block creation, deletion & replication upon instruction from NameNode.
   - Run on commodity hardware with average configuration
 
+1. *Schema on Read* – unprocessed data can be loaded into HDF with a structure applied at processing time based on the requirements of the processing application. 
+2. *Schema on Write* – used in RDBMS where schema need to be defined before the data can be loaded
+
+## Migration of Hadoop to cloud
+Data platforms for cloud-native use are better than legacy Hadoop environments
+
+#### Hadoop cloud advantages
+- Lower infrastructure costs
+- Data processing & performance improvement
+- Higher data processing throughput
+- Centralization of security credentials
+
+#### Hadoop cloud migration
+- Hadoop wasn’t designed for cloud infrastructure
+- While cloud based Hadoop services is better than legacy Hadoop systems, both of them **lag behind modern data platform counterparts**. While migrating from Hadoop to a modern solution can be difficult, **staying with Hadoop could lead to greater costs**.
+
+#### Hadoop cloud migration benefits
+- Long-term cost savings
+- Easy access & resource availability
+- Better collaboration
+- Better scalability
 
 
 
