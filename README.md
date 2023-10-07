@@ -114,6 +114,23 @@ MapReduce can easily tackle large datasets by distributing processing across man
 - A booking website could use MapReduce to examine search criteria  & historical behaviors
 - An industrial facility could collect equipment data from sensors across an installation & use MapReduce to tailor maintenance needs
 
+#### HDFS uses-
+- HDFS provides a fault tolerant storage structure
+- World’s most reliable storage system
+- Enables high throughput access to application data
+
+**Hadoop works in a master-slave manner.**
+HDFS has 2 types of nodes that work in the same manner:
+1. NameNodes
+  - Regulates file access to clients
+  - Maintain & manage slave nodes & assign tasks to them
+  - Executes file system namespace operations – opening, closing, renaming files & directories
+  - This metadata is available in-memory in master for faster data retrieval & copy of metadata is also stored in local disk for persistence. So, typically, NameNode memory should be high.
+2. DataNodes
+  - Manages data storage
+  - There could be up to 1000 DataNodes in HDFS 
+  - They are the actual worker nodes that perform block creation, deletion & replication upon instruction from NameNode.
+  - Run on commodity hardware with average configuration
 
 
 
