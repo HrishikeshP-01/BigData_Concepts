@@ -93,7 +93,26 @@ In a coffee shop there are many types of coffee. This is variety. If you order t
 - Might enhance performance of stand-alone applications
 - Allows enhancement of performance or availability
 
+## Hadoop components
+- *MapReduce* – computational model & software framework for applications run on Hadoop
+- *HDFS* (Hadoop Distributed File System)  
+- Hadoop application storage system
 
+MapReduce consumes data from HDFS
+Multiple replicas of data blocks are distributed on compute nodes in a cluster
+
+- Hive
+- HBase
+- Mahout
+- Sqoop
+- Flume
+- Zookeeper
+
+MapReduce can easily tackle large datasets by distributing processing across many nodes then combining or reducing the results obtained from those nodes.
+#### MapReduce Use Cases:
+- A social networking site could use MapReduce to determine potential friends, colleagues & other contacts
+- A booking website could use MapReduce to examine search criteria  & historical behaviors
+- An industrial facility could collect equipment data from sensors across an installation & use MapReduce to tailor maintenance needs
 
 
 
