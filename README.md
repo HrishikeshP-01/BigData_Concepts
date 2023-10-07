@@ -172,6 +172,18 @@ Data platforms for cloud-native use are better than legacy Hadoop environments
 - Hadoop can’t provide middleware applications 
 - Hadoop is a software
 
+#### Teams migrate from Hadoop & choose cloud solutions for a variety of reasons:
+- Limitations within Hadoop systems
+- Modern cloud infrastructure provide new possibilities
+
+## HDFS Storage Featues
+- *Distributed storage & replication* – data is divided into blocks & stored on nodes inside HDFS structure. After that HDFS creates a replica of each block & stores it on other nodes.
+- *High availability* – data is replicated among nodes in case of failure, the data is still accessible
+- *High reliability* – reliable data storage on a cluster
+- *High fault tolerance* – multiple copies of data blocks exist on machines in the cluster 
+- *Replication* – replication solves the problem of data loss
+- *Scalability* – the nodes in the cluster can be scaled as needed. Both vertical & horizontal scalability is possible
+
 
 
 
