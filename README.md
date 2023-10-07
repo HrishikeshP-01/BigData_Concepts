@@ -198,6 +198,14 @@ Data platforms for cloud-native use are better than legacy Hadoop environments
 - *Elasticsearch* – a distributed search & analytics engine which stores large volumes of data for fast search, fine-tuned relevancy & powerful analytics that’s easily scalable
 - *Cockroach DB* – commercial distributed SQL DBMS that stores copies of data in multiple locations, easily scalable, consistent replication
 
+## Need for in-memory storage systems
+- Performance requirements of big data tools have been hard to align. These tools require storage & processing power. This has lead to the rise of in-memory storage systems.
+- The application interacts with a master server which in-turn interacts with multiple RAM data partitions. The main memory is accessed only when querying data. This allows for faster access of the data. Data is loaded into in-memory databases in a compressed & non-relational format. It allows for direct navigation from index to row/column.
+Eg: Maria DB, Redis, SAP Hana
+#### In-memory storage systems 
+- RAM is volatile & data is lost when hardware crashes. Non-volatile RAM (nvRAM) are being developed to mitigate the problem as they provide more persistent memory. For now, Flash is also used but there is a limit to how many times data can be written & erased on it.
+- In-memory database system can also act as a read-only analytic database. This can be used to store historical data on metrics for BI applications. This eliminates data indexing & could reduce IT costs.
+- Lack of translation & caching enables high speed. The data is used in the same form as the application that contains it.
 
 
 
