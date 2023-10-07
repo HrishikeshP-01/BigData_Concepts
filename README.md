@@ -184,6 +184,19 @@ Data platforms for cloud-native use are better than legacy Hadoop environments
 - *Replication* – replication solves the problem of data loss
 - *Scalability* – the nodes in the cluster can be scaled as needed. Both vertical & horizontal scalability is possible
 
+## Security in Hadoop
+- Hadoop achieves security using Kerberos.
+- 3 steps are needed to access a service in Hadoop via Kerberos:
+  1. Authentication
+  2. Authorization
+  3. Service request
+
+## In-memory storage systems
+- *Kudu*
+  - Open-source storage engine for structured data which supports low-latency random access with efficient analytical access patterns.
+  - Data is described using horizontal partitioning & then replicates each partitioning providing short latency periods
+- *Elasticsearch* – a distributed search & analytics engine which stores large volumes of data for fast search, fine-tuned relevancy & powerful analytics that’s easily scalable
+- *Cockroach DB* – commercial distributed SQL DBMS that stores copies of data in multiple locations, easily scalable, consistent replication
 
 
 
