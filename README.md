@@ -154,6 +154,23 @@ Data platforms for cloud-native use are better than legacy Hadoop environments
 - Better collaboration
 - Better scalability
 
+## Hadoop & cloud differences
+#### Cloud computing
+- On-demand, scalable & adaptable service models
+- Constitutes various computing concepts which involve many computers
+- Model in which processing & storage resources can be accessed from any location via internet
+- Cloud MapReduce relies on infrastructure offered by a CSP
+- Cloud computing is a storage drive with different OS, applications & frameworks accessible via internet
+- Hadoop can be installed in any cloud deployment service
+- In a way cloud is like a computer on which we can even install Hadoop
+#### Hadoop
+- Focus on extracting value out of vol., variety & velocity
+- Uses simple programming models to process large datasets across clusters of computers
+- An ecosystem of open-source software projects which allow inexpensive computing
+- Hadoop has its own implementation of MapReduce
+- Software product developed by Apache to deal with data
+- Hadoop can’t provide middleware applications 
+- Hadoop is a software
 
 
 
